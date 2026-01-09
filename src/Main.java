@@ -127,8 +127,7 @@ public class Main {
                         {"Xhosa", "Molo Lizwe"}, {"Yakut", "Дорооболорун Аан дойду"},
                         {"Yiddish", "העלא וועלט"}, {"Yoruba", "Mo ki O Ile Aiye"},
                         {"Yucatec Maya", "Hola yóok'ol kaab"}, {"Zapotec", "Hola Mundo"},
-                        {"Zulu", "Sawubona Mhlaba"}, {"BLAH", "BLAH"}, //250
-                        {"BLAH", "BLAH"}, {"Pig-Latin", "elloHay orldWay"}
+                        {"Zulu", "Sawubona Mhlaba"}, {"Pig-Latin", "elloHay orldWay"}, //250
                 };
     }
 }
