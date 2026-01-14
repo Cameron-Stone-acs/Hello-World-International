@@ -4,7 +4,8 @@ P4
 1/12/2026
  */
 import java.util.Scanner;
-public class Main {
+public class Main
+{
     static Scanner scan = new Scanner(System.in);
     static String[][] language = new  String[][]
             { // {language name in english, hello world in that language}
@@ -135,7 +136,8 @@ public class Main {
                     {"Zulu", "Sawubona Mhlaba"}, {"Pig-Latin", "elloHay orldWay"}, //250
                     {"Despacito", "Despacito"}
             };
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException
+    {
         boolean Continue = true;
         while (Continue)
         {
@@ -167,7 +169,7 @@ public class Main {
                 }
                 if (!valid && !despacito)
                 {
-                    System.out.println("\u001B[31mInvalid language please try zagain:\u001B[0m");
+                    System.out.println("\u001B[31mInvalid language please try again:\u001B[0m");
                 }
                 if (despacito)
                 {
@@ -176,10 +178,9 @@ public class Main {
                 }
             }
             System.out.println(input);
-            System.out.println("\u001B[34mWould you like to continue? y/n\u001B[0m");
+            System.out.print("\u001B[34mWould you like to continue? y/n: \u001B[0m");
             input = scan.nextLine();
-            if (input.equalsIgnoreCase("y")) Continue = true;
-            else Continue = false;
+            if (input.equalsIgnoreCase("n")) Continue = false;
         }
     }
 }
